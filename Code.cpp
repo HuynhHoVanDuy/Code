@@ -8,9 +8,11 @@ int main() {
 
             int a, b, tong, hieu, tich, thuong;
 
-            printf("Nhap a, b: ");
+            printf("nhap so a");
 
-            scanf("%d%d", &a, &b);
+            scanf("%d", &a);
+            printf("nhap so b");
+            scanf("%d", &b);
 
             tong = a+b;
 
